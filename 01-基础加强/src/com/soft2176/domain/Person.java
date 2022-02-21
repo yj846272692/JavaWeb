@@ -35,21 +35,25 @@ public class Person {
     }
 
     private int age;
-    public  String a;
-    public  String b;
+    public String a;
+    public String b;
     String c;
-    private  String d;
-    public Person(){
+    private String d;
+
+    public Person() {
 
     }
-    public  Person(String name,int age) {
+
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
-    public void eat(){
+
+    public void eat() {
         System.out.println("eat.....");
     }
-    public void eat(String food){
-        System.out.println("eat....."+food);
+
+    public void eat(String food) {
+        System.out.println("eat....." + food);
     }
 }
